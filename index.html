@@ -4,57 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Portfolio</title>
+    <title>Ayush Gohel</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f8fafc;
-            color: #1e293b;
-        }
-
-        .progress-bar {
-            height: 6px;
-            background-color: #e2e8f0;
-            border-radius: 3px;
-        }
-
-        .progress-fill {
-            height: 100%;
-            border-radius: 3px;
-            background-color: #3b82f6;
-        }
-
-        .card-hover {
-            transition: all 0.3s ease;
-        }
-
-        .card-hover:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-        }
-
-        section {
-            scroll-margin-top: 80px;
-        }
-
-        .active-nav-link {
-            color: #3b82f6;
-            position: relative;
-        }
-
-        .active-nav-link::after {
-            content: '';
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            width: 100%;
-            height: 2px;
-            background-color: #3b82f6;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="min-h-screen">
@@ -63,7 +15,7 @@
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
-                    <span class="text-xl font-bold text-gray-800">Portfolio</span>
+                    <span class="text-xl font-bold text-gray-800">Ayush Gohel</span>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#about" class="nav-link text-gray-600 hover:text-blue-500 transition">About</a>
@@ -98,7 +50,7 @@
         <div class="max-w-6xl mx-auto">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-8 md:mb-0">
-                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/67208331-2462-41c7-be1e-5068ff909ed0.png"
+                    <img src="Ayush Image Copy.jpeg"
                         alt="Professional headshot of a software developer in business casual attire with a modern office background"
                         class="rounded-lg shadow-lg w-full max-w-md mx-auto">
                 </div>
@@ -118,7 +70,7 @@
                         <a href="#contact"
                             class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-medium transition">Contact
                             Me</a>
-                        <a href="#"
+                        <a href="220280152019_Ayush_Gohel_Resume.pdf" target="_blank"
                             class="border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-md font-medium transition">Download
                             CV</a>
                     </div>
@@ -137,18 +89,14 @@
                     <div class="flex flex-col md:flex-row md:justify-between mb-4">
                         <div>
                             <h3 class="text-xl font-bold text-gray-800">Machine Learning Intern</h3>
-                            <h4 class="text-blue-600 font-medium">InternsElite + IIT E-Cell Hyderabad </h4>
+                            <h4 class="text-blue-600 font-medium">InternsElite</h4>
                         </div>
                         <div class="text-gray-500 mt-2 md:mt-0">Jan 2025 - April 2025</div>
                     </div>
                     <ul class="list-disc pl-5 text-gray-600 leading-relaxed space-y-2">
-                        <li>Designed two projects for completion of the internship in which Regression Based CSV/EXCEL
-                            file analysis and predictive model and another project was of Decision Tree Based analysis
-                            and classification model.</li>
-                        <li>Worked with Streamlit and Python(Machine Learning) for having hands on experience to build
-                            frontend interface and backend interface.</li>
-                        <!-- <li>Optimized database queries improving application performance by 70%</li>
-                        <li>Mentored junior developers through code reviews and pair programming</li>  -->
+                        <li>Worked as Machine Learning Trainee + Intern at InternsElite with collaboration with IIT E-Cell Hyderabad and Inno Softtech.</li>
+                        <li>Designed two projects for completion of the internship in which Regression Based CSV/EXCEL file analysis and predictive model and another project was of Decision Tree Based analysis and classification model.</li>
+                        <li>Worked with Streamlit and Python(Machine Learning) for having hands on experience to build frontend interface and backend interface.</li>
                     </ul>
                 </div>
 
@@ -159,35 +107,18 @@
                             <h3 class="text-xl font-bold text-gray-800">Associate Data Analyst Intern</h3>
                             <h4 class="text-blue-600 font-medium">Excelerate</h4>
                         </div>
-                        <div class="text-gray-500 mt-2 md:mt-0">July 2024 - Sep 2024</div>
+                        <div class="text-gray-500 mt-2 md:mt-0">June 2025 - July 2025</div>
                     </div>
                     <ul class="list-disc pl-5 text-gray-600 leading-relaxed space-y-2">
-                        <li>Worked on raw dataset with PostgreSQL and gained knowledge about how to handle and clean
-                            dataset with ETL process.</li>
-                        <li>At the end I made visualization on Google Looker Studio for having insights from the raw
-                            data after cleaning them and making a master table by combining all the datasets.</li>
-                        <li>Have also gained experience for teamwork with my team members.</li>
-                    </ul>
-                </div>
-
-                <!-- Experience 3 -->
-                <!-- <div class="bg-white p-6 rounded-lg shadow-sm card-hover">
-                    <div class="flex flex-col md:flex-row md:justify-between mb-4">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-800">Junior Developer</h3>
-                            <h4 class="text-blue-600 font-medium">StartUp Ventures</h4>
-                        </div>
-                        <div class="text-gray-500 mt-2 md:mt-0">Jan 2017 - May 2018</div>
-                    </div>
-                    <ul class="list-disc pl-5 text-gray-600 leading-relaxed space-y-2">
-                        <li>Built responsive landing pages increasing lead conversion by 25%</li>
-                        <li>Collaborated with designers to implement UI components matching mockups</li>
-                        <li>Fixed bugs and improved error handling in core application</li>
+                        <li>Worked as Associate Data Analyst to handle big raw datasets.</li>
+                        <li>Worked with PostgreSQL and gained knowledge about how to handle and clean dataset with ETL process using PostgreSQL.</li>
+                        <li>I ended up by making visualization on Google Looker Studio for having insights from the raw data after cleaning them and making a master table by combining all the datasets.</li>
+                        <li>Completed my internship seamlessly working with my team. From this I got experience of teamwork.</li>
                     </ul>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section> 
 
                 <!-- Education Section -->
                 <section id="education" class="py-16 px-4">
@@ -196,26 +127,28 @@
                         <div class="grid md:grid-cols-2 gap-8">
                             <div class="bg-white p-6 rounded-lg shadow-sm card-hover">
                                 <div class="flex justify-between items-center mb-4">
-                                    <h3 class="text-xl font-bold text-gray-800">Master of Computer Science</h3>
-                                    <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">2016</span>
+                                    <h3 class="text-xl font-bold text-gray-800">BE - AI & Machine Learning</h3>
+                                    <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">2022 - 2026</span>
                                 </div>
-                                <h4 class="text-blue-600 font-medium mb-2">Stanford University</h4>
-                                <p class="text-gray-600">Specialized in Artificial Intelligence and Machine Learning
-                                    with a GPA of
-                                    3.8/4.0</p>
-                                <p class="text-gray-500 mt-2">Thesis: "Neural Network Optimization for Image
-                                    Recognition"</p>
+                                <h4 class="text-blue-600 font-medium mb-2">LDCE - Ahmedabad</h4>
+                                <p class="text-gray-600">Specialized in Artificial Intelligence and Machine Learning with a CPI of 7.5/10.0</p>
                             </div>
 
                             <div class="bg-white p-6 rounded-lg shadow-sm card-hover">
                                 <div class="flex justify-between items-center mb-4">
-                                    <h3 class="text-xl font-bold text-gray-800">Bachelor of Science in Computer
-                                        Engineering</h3>
-                                    <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">2014</span>
+                                    <h3 class="text-xl font-bold text-gray-800">HSC</h3>
+                                    <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">2022</span>
                                 </div>
-                                <h4 class="text-blue-600 font-medium mb-2">MIT</h4>
-                                <p class="text-gray-600">Minor in Mathematics with a GPA of 3.9/4.0</p>
-                                <p class="text-gray-500 mt-2">Honors: Summa Cum Laude, Dean's List (All Semesters)</p>
+                                <h4 class="text-blue-600 font-medium mb-2">Sandipani Vidhyalay</h4>
+                                <p class="text-gray-600">Completed my HSC with a good overall result of 81.38%.</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-lg shadow-sm card-hover">
+                                <div class="flex justify-between items-center mb-4">
+                                    <h3 class="text-xl font-bold text-gray-800">SSC</h3>
+                                    <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">2020</span>
+                                </div>
+                                <h4 class="text-blue-600 font-medium mb-2">St. Mary's School</h4>
+                                <p class="text-gray-600">Completed my SSC with by scoring a good result of 82.33%.</p>
                             </div>
                         </div>
                     </div>
@@ -231,7 +164,7 @@
                                 <div class="space-y-4">
                                     <div>
                                         <div class="flex justify-between mb-1">
-                                            <span class="text-gray-700">JavaScript/TypeScript</span>
+                                            <span class="text-gray-700">Machine Learning + AI</span>
                                             <span class="text-gray-500">90%</span>
                                         </div>
                                         <div class="progress-bar">
@@ -240,16 +173,16 @@
                                     </div>
                                     <div>
                                         <div class="flex justify-between mb-1">
-                                            <span class="text-gray-700">React/Angular</span>
-                                            <span class="text-gray-500">85%</span>
+                                            <span class="text-gray-700">Data Analytice</span>
+                                            <span class="text-gray-500">90%</span>
                                         </div>
                                         <div class="progress-bar">
-                                            <div class="progress-fill" style="width: 85%"></div>
+                                            <div class="progress-fill" style="width: 90%"></div>
                                         </div>
                                     </div>
                                     <div>
                                         <div class="flex justify-between mb-1">
-                                            <span class="text-gray-700">Node.js</span>
+                                            <span class="text-gray-700">SQL - DBMS</span>
                                             <span class="text-gray-500">80%</span>
                                         </div>
                                         <div class="progress-bar">
@@ -258,11 +191,20 @@
                                     </div>
                                     <div>
                                         <div class="flex justify-between mb-1">
-                                            <span class="text-gray-700">AWS/GCP</span>
-                                            <span class="text-gray-500">75%</span>
+                                            <span class="text-gray-700">Frontend Development</span>
+                                            <span class="text-gray-500">70%</span>
                                         </div>
                                         <div class="progress-bar">
-                                            <div class="progress-fill" style="width: 75%"></div>
+                                            <div class="progress-fill" style="width: 70%"></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="flex justify-between mb-1">
+                                            <span class="text-gray-700">DSA</span>
+                                            <span class="text-gray-500">60%</span>
+                                        </div>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" style="width: 60%"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -283,19 +225,19 @@
                                     <div>
                                         <div class="flex justify-between mb-1">
                                             <span class="text-gray-700">Communication</span>
-                                            <span class="text-gray-500">85%</span>
+                                            <span class="text-gray-500">80%</span>
                                         </div>
                                         <div class="progress-bar">
-                                            <div class="progress-fill" style="width: 85%"></div>
+                                            <div class="progress-fill" style="width: 80%"></div>
                                         </div>
                                     </div>
                                     <div>
                                         <div class="flex justify-between mb-1">
                                             <span class="text-gray-700">Problem Solving</span>
-                                            <span class="text-gray-500">95%</span>
+                                            <span class="text-gray-500">80%</span>
                                         </div>
                                         <div class="progress-bar">
-                                            <div class="progress-fill" style="width: 95%"></div>
+                                            <div class="progress-fill" style="width: 80%"></div>
                                         </div>
                                     </div>
                                     <div>
@@ -316,31 +258,44 @@
                                     <div>
                                         <div class="flex justify-between mb-1">
                                             <span class="text-gray-700">English</span>
+                                            <span class="text-gray-500">Intermediate</span>
+                                        </div>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="flex justify-between mb-1">
+                                            <span class="text-gray-700">Hindi</span>
+                                            <span class="text-gray-500">Advanced</span>
+                                        </div>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="flex justify-between mb-1">
+                                            <span class="text-gray-700">Gujarati</span>
                                             <span class="text-gray-500">Native</span>
                                         </div>
                                         <div class="progress-bar">
                                             <div class="progress-fill" style="width: 100%"></div>
                                         </div>
                                     </div>
-                                    <div>
-                                        <div class="flex justify-between mb-1">
-                                            <span class="text-gray-700">Spanish</span>
-                                            <span class="text-gray-500">Advanced</span>
-                                        </div>
-                                        <div class="progress-bar">
-                                            <div class="progress-fill" style="width: 70%"></div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="flex justify-between mb-1">
-                                            <span class="text-gray-700">French</span>
-                                            <span class="text-gray-500">Intermediate</span>
-                                        </div>
-                                        <div class="progress-bar">
-                                            <div class="progress-fill" style="width: 50%"></div>
-                                        </div>
-                                    </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Achievements Section -->
+                <section id="achievements" class="py-16 px-4">
+                    <div class="max-w-6xl mx-auto">
+                        <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Achievements</h2>
+                        <div class="space-y-8">
+                            <div class="bg-white p-6 rounded-lg shadow-sm card-hover">
+                                <h3 class="text-xl font-bold text-gray-800">Runner Up in Blind Coding</h3>
+                                <p class="text-gray-600">Secured 2nd place among all the students at Blind Coding held at Nirma University - Ahmedabad.</p>
                             </div>
                         </div>
                     </div>
@@ -353,26 +308,31 @@
                         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                             <!-- Project 1 -->
                             <div class="bg-white rounded-lg overflow-hidden shadow-sm card-hover">
-                                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8012f965-b381-44df-a45c-0688e3b55bf5.png"
+                                <img src="regression.png"
                                     alt="Dashboard interface of Task Management App showing task lists, calendars and progress charts"
                                     class="w-full h-48 object-cover">
                                 <div class="p-6">
-                                    <h3 class="text-xl font-bold text-gray-800 mb-2">Task Management App</h3>
-                                    <p class="text-gray-600 mb-4">A full-stack productivity application with real-time
-                                        collaboration
-                                        features using React and Firebase.</p>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-2">Regression Prediction</h3>
+                                    <p class="text-gray-600 mb-4">Streamlit app for data import, visualization, and futuristic prediction using ML.
+                                    </p>
                                     <div class="flex flex-wrap gap-2 mb-4">
                                         <span
-                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">React</span>
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Python</span>
                                         <span
-                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Firebase</span>
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Pandas</span>
                                         <span
-                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Redux</span>
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Streamlit</span>
+                                        <span
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Numpy</span>
+                                        <span
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">ScikitLearn</span>
+                                        <span
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Seaborn</span>
                                     </div>
                                     <div class="flex space-x-3">
                                         <a href="#" class="text-blue-600 hover:text-blue-800 text-sm font-medium">Live
                                             Demo</a>
-                                        <a href="#"
+                                        <a href="https://github.com/ayush490/Regression.Prediction.git"
                                             class="text-gray-600 hover:text-gray-800 text-sm font-medium">GitHub</a>
                                     </div>
                                 </div>
@@ -380,26 +340,29 @@
 
                             <!-- Project 2 -->
                             <div class="bg-white rounded-lg overflow-hidden shadow-sm card-hover">
-                                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/a32e5212-402c-4572-a79a-e6c9094839db.png"
+                                <img src="decisiontree.png"
                                     alt="E-commerce website screenshot showing product listings, shopping cart, and checkout process"
                                     class="w-full h-48 object-cover">
                                 <div class="p-6">
-                                    <h3 class="text-xl font-bold text-gray-800 mb-2">E-commerce Platform</h3>
-                                    <p class="text-gray-600 mb-4">A high-performance online store with payment
-                                        processing and
-                                        inventory management.</p>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-2">Decision Tree App</h3>
+                                    <p class="text-gray-600 mb-4">Streamlit app using Python and ML to import CSV/Excel, visualize data, and predict categories via decision tree.
+                                    </p>
                                     <div class="flex flex-wrap gap-2 mb-4">
                                         <span
-                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Next.js</span>
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Python</span>
                                         <span
-                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Stripe</span>
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Streamlit</span>
                                         <span
-                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">MongoDB</span>
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Pandas</span>
+                                        <span
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">ScikitLearn</span>
+                                        <span
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Seaborn</span>
                                     </div>
                                     <div class="flex space-x-3">
                                         <a href="#" class="text-blue-600 hover:text-blue-800 text-sm font-medium">Live
                                             Demo</a>
-                                        <a href="#"
+                                        <a href="https://github.com/ayush490/Decision.Tree.Prediction.git"
                                             class="text-gray-600 hover:text-gray-800 text-sm font-medium">GitHub</a>
                                     </div>
                                 </div>
@@ -407,26 +370,56 @@
 
                             <!-- Project 3 -->
                             <div class="bg-white rounded-lg overflow-hidden shadow-sm card-hover">
-                                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c3ace58c-9f62-4e91-a2f3-7121a0427fe6.png"
+                                <img src="IOPA.png"
                                     alt="AI analytics dashboard displaying data visualizations and machine learning model performance metrics"
                                     class="w-full h-48 object-cover">
                                 <div class="p-6">
-                                    <h3 class="text-xl font-bold text-gray-800 mb-2">AI Analytics Dashboard</h3>
-                                    <p class="text-gray-600 mb-4">Machine learning platform for predictive analytics
-                                        with
-                                        interactive visualizations.</p>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-2">IOPA Radiograph Classifier</h3>
+                                    <p class="text-gray-600 mb-4">Developed a CNN model to classify dental X-ray types, trained on test images, and allows users to upload X-rays to detect diseases and categorize the image.</p>
                                     <div class="flex flex-wrap gap-2 mb-4">
                                         <span
                                             class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Python</span>
                                         <span
-                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">TensorFlow</span>
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">NumPY</span>
                                         <span
-                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">D3.js</span>
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Tensorflow</span>
+                                        <span
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Seaborn</span>
+                                        <span
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">CNN</span>
                                     </div>
                                     <div class="flex space-x-3">
                                         <a href="#" class="text-blue-600 hover:text-blue-800 text-sm font-medium">Live
                                             Demo</a>
-                                        <a href="#"
+                                        <a href="https://github.com/ayush490/IOPA.git"
+                                            class="text-gray-600 hover:text-gray-800 text-sm font-medium">GitHub</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project 4 -->
+                            <div class="bg-white rounded-lg overflow-hidden shadow-sm card-hover">
+                                <img src="portfolio.png"
+                                    alt="AI analytics dashboard displaying data visualizations and machine learning model performance metrics"
+                                    class="w-full h-48 object-cover">
+                                <div class="p-6">
+                                    <h3 class="text-xl font-bold text-gray-800 mb-2">Portfolio Website</h3>
+                                    <p class="text-gray-600 mb-4">Developed a dynamic portfolio using HTML, Tailwind CSS and JavaScript having overview of my technical and non-technical background having responsive nature.</p>
+                                    <div class="flex flex-wrap gap-2 mb-4">
+                                        <span
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML</span>
+                                        <span
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">JavaScript</span>
+                                        <span
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Tailwind CSS</span>
+                                        <span
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Google Fonts</span>
+                                        <span
+                                            class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">SVG Icons</span>
+                                    </div>
+                                    <div class="flex space-x-3">
+                                        <a href="https://ayush490.github.io/Ayush.portfolio/" class="text-blue-600 hover:text-blue-800 text-sm font-medium">Live Demo</a>
+                                        <a href="https://github.com/ayush490/Ayush.portfolio.git"
                                             class="text-gray-600 hover:text-gray-800 text-sm font-medium">GitHub</a>
                                     </div>
                                 </div>
@@ -450,8 +443,7 @@
                                                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
                                             </path>
                                         </svg>
-                                        <a href="tel:+1234567890" class="text-gray-600 hover:text-blue-600">+1 (234)
-                                            567-890</a>
+                                        <a href="tel:+917567759991" class="text-gray-600 hover:text-blue-600">+91 756-775-9991</a>
                                     </div>
                                     <div class="flex items-start">
                                         <svg class="h-6 w-6 text-blue-600 mr-3 mt-1" fill="none" viewBox="0 0 24 24"
@@ -460,8 +452,8 @@
                                                 d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
                                             </path>
                                         </svg>
-                                        <a href="mailto:john.doe@example.com"
-                                            class="text-gray-600 hover:text-blue-600">john.doe@example.com</a>
+                                        <a href="mailto:krupagohel1@gmail.com"
+                                            class="text-gray-600 hover:text-blue-600">krupagohel1@gmail.com</a>
                                     </div>
                                     <div class="flex items-start">
                                         <svg class="h-6 w-6 text-blue-600 mr-3 mt-1" fill="none" viewBox="0 0 24 24"
@@ -472,7 +464,7 @@
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                                         </svg>
-                                        <span class="text-gray-600">San Francisco, CA</span>
+                                        <span class="text-gray-600">Ahmedabad - GUJARAT</span>
                                     </div>
                                     <div class="flex items-start">
                                         <svg class="h-6 w-6 text-blue-600 mr-3 mt-1" fill="none" viewBox="0 0 24 24"
@@ -481,8 +473,8 @@
                                                 d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
                                             </path>
                                         </svg>
-                                        <a href="https://www.linkedin.com/in/johndoe"
-                                            class="text-gray-600 hover:text-blue-600">linkedin.com/in/johndoe</a>
+                                        <a href="https://www.linkedin.com/in/ayushgohel241104/"
+                                            class="text-gray-600 hover:text-blue-600">Ayush Gohel</a>
                                     </div>
                                 </div>
                             </div>
@@ -509,8 +501,7 @@
                                             class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
                                     </div>
                                     <button type="submit"
-                                        class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-medium transition w-full md:w-auto">Send
-                                        Message</button>
+                                        class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-medium transition w-full md:w-auto">Send Message</button>
                                 </form>
                             </div>
                         </div>
